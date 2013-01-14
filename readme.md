@@ -15,11 +15,12 @@ Usage
 Using Mrkdwn is pretty straightforward. Simply include `Mrkdwn.php`,
 instantiate it and call the `Mrkdwn::parse()` passing the string you
 want to parse.
-    include 'Mrkdwn.php';
-	$mrkdwn = new Mrkdwn;
-	$html = $mrkdwn->parse($markdown);
 
-There's also a similar example in the `demos` folder.
+    include 'Mrkdwn.php';
+    $mrkdwn = new Mrkdwn;
+    $html = $mrkdwn->parse($markdown);
+
+There is also a similar example in the `demos` folder.
 
 Issues
 ----
